@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My College Website</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f2f6fa;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #003d7a;
+            color: white;
+            padding: 30px;
+            text-align: center;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+            margin-top: 20px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: #003d7a;
+            border-left: 5px solid #003d7a;
+            padding-left: 10px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p, ul {
+            margin-left: 20px;
+            font-size: 17px;
+        }
+
+        .gallery, .recruiters {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .gallery img, .recruiters img {
+            width: 180px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 6px;
+            border: 2px solid #ccc;
+            transition: 0.3s;
+        }
+
+        .gallery img:hover, .recruiters img:hover {
+            transform: scale(1.05);
+            border-color: #003d7a;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    MY COLLEGE – OFFICIAL WEB PAGE
+</header>
+
+<div class="container">
+
+    <h2>Vision</h2>
+    <p>To be a premier institution that imparts quality education and fosters research, innovation, and excellence.</p>
+
+    <h2>Mission</h2>
+    <p>To develop skilled professionals, encourage creativity, and promote ethical values in students.</p>
+
+    <h2>Program Specific Outcomes (PSO)</h2>
+    <ul>
+        <li>PSO 1: Apply computing and engineering knowledge to solve real-world problems.</li>
+        <li>PSO 2: Design and develop efficient software systems using modern tools.</li>
+        <li>PSO 3: Work professionally in teams with effective communication skills.</li>
+    </ul>
+
+    <h2>Courses Offered</h2>
+    <ul>
+        <li>B.Tech – Computer Science Engineering</li>
+        <li>B.Tech – Electronics & Communication Engineering</li>
+        <li>B.Tech – Mechanical Engineering</li>
+        <li>BBA, MBA</li>
+        <li>Diploma Courses</li>
+    </ul>
+
+    <h2>Image Gallery of Events</h2>
+    <div class="gallery">
+        <img src="event1.jpg" alt="Event 1">
+        <img src="event2.jpg" alt="Event 2">
+        <img src="event3.jpg" alt="Event 3">
+        <img src="event4.jpg" alt="Event 4">
+    </div>
+
+    <h2>Top Recruiters</h2>
+    <div class="recruiters">
+        <img src="tcs.png" alt="TCS">
+        <img src="wipro.png" alt="Wipro">
+        <img src="infosys.png" alt="Infosys">
+        <img src="amazon.png" alt="Amazon">
+        <img src="hcl.png" alt="HCL">
+    </div>
+
+</div>
+
+</body>
+</html>
